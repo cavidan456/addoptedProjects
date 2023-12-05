@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    section{
+        img{
+            width: 100%;
+        }
+        button{
+            border: none;
+            color: red;
+            background-color: #fa6c6c;
+            padding: 5px 10px;
+            border: 1px solid red;
+            border-radius: 35px;
+            &:hover{
+                background-color: #fd5959;
+            }
+        }
+    }
+}

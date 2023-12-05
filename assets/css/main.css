@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+nav {
+  width: 75%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .social-head {
+  background-color: #BC5148;
+}
+header .social-head .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+header .social-head .container .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .social-head .container .social-media a {
+  color: black;
+}
+header .social-head .container .social-media a:hover {
+  color: #fff;
+}
+header .social-head .container .login #sponsor-btn {
+  height: 40px;
+  background: transparent;
+  border: none;
+}
+header .social-head .container .login #sponsor-btn:hover {
+  color: #fff;
+}
+header .social-head .container .login #login-btn {
+  height: 40px;
+  background-color: #F4B214;
+  padding: 5px 10px;
+  border: none;
+}
+header .social-head .container .login #login-btn:hover {
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main #parents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  background-image: url(/assets/images/slider-2.jpg);
+  background-size: cover;
+}
+main #parents .parents-content span {
+  font-family: "Ephesis", "cursive";
+  font-size: 45px;
+  color: #fff;
+}
+main #parents .parents-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+main #parents .parents-content p {
+  color: #fff;
+  font-size: 20px;
+}
+main #parents .parents-content button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #BC5148;
+  color: #fff;
+}
+main #parents .parents-content button:hover {
+  background-color: #be6c65;
+}
+main #family .family-content img {
+  width: 500px;
+}
+main #family .family-content button {
+  border: 1px solid #BC5148;
+  background: transparent;
+  border-radius: 5px;
+  color: #BC5148;
+  padding: 10px 20px;
+}
+main #family .family-content button:hover {
+  background-color: #BC5148;
+  color: #fff;
+}
+main #family .family-content-text .content-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+main #family .family-content-text .content-text p {
+  display: none;
+}
+main #family .family-content-text .content-text .border-text {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+main #family .family-content-text .content-text .border-text:active p {
+  display: block;
+}
+main #children {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+main #children .children-head {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+main #children .children-head p {
+  color: gray;
+  font-size: 21px;
+}
+main #children .children-head button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #BC5148;
+}
+main #children .children-head button:hover {
+  background-color: #be6c65;
+}
+main #children .card img {
+  width: 100%;
+}
+main #children .card button {
+  border: none;
+  padding: 5px 10px;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f7c142;
+}
+main #children .card button:hover {
+  background-color: #fe6a34;
+}
+main #stories {
+  margin-bottom: 100px;
+}
+main #stories .stories-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #stories .stories-main .stories-main-item img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #BC5148;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: #F4B214;
+}
+footer a:hover {
+  color: #f1f1f1;
+}
